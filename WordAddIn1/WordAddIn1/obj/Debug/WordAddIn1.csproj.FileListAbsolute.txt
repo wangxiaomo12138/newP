@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.pdb
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll.manifest
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.vsto
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.dll
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.pdb
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Ribbon1.resources
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.UserControl1.resources
+C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.UserControl2.resources
