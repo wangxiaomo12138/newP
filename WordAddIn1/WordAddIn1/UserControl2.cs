@@ -20,13 +20,13 @@ namespace WordAddIn1
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
-            UserControl1 user = new UserControl1(GetC());
+            UserControl1 user = new UserControl1(GetC(1),3);
             this.flowLayoutPanel1.Controls.Add(user);
             this.flowLayoutPanel1.Visible = true;
         }
 
         //模拟调用接口过程组装数据
-        public List<Content> GetC()
+        public static List<Content> GetC(int currentPage)
         {
             List<Content> contentList = new List<Content>();
             for (int i = 1; i <= 10; i++)

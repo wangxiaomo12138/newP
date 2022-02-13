@@ -13,18 +13,21 @@ namespace WordAddIn1
     public partial class UserControl1 : UserControl
     {
         List<Content> redisList;
+        int totalPage;
+        int currentPage;
         public UserControl1()
         {
             InitializeComponent();
         }
 
-        public UserControl1(List<Content> contentList)
+        public UserControl1(List<Content> contentList,int totalPage)
         {
             InitializeComponent();
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.DataSource = contentList;
             this.redisList = contentList;
-            
+            this.totalPage = totalPage;
+            this.currentPage = 1;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -37,6 +40,63 @@ namespace WordAddIn1
             if(e.ColumnIndex == 1)
             {
                 System.Diagnostics.Process.Start("iexplore.exe", c.f);
+            }
+        }
+
+        private void linklabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            currentPage--;
+            if(currentPage <= 0)
+            {
+                currentPage++;
+                MessageBox.Show("已经是第一页");
+            }
+            else
+            {
+                //调用接口的方法
+               // List<Content> contentList = UserControl2.GetC(currentPage);
+                List<Content> contentList = new List<Content>();
+                for (int i = 5; i <= 15; i++)
+                {
+                    Content content = new Content();
+                    content.a = i.ToString();
+                    content.b = i.ToString();
+                    content.c = i.ToString();
+                    content.d = i.ToString();
+                    content.e = "www.baidu.com";
+                    content.f = "www.taobao.com";
+                    contentList.Add(content);
+                }
+                this.dataGridView1.DataSource = contentList;
+                this.redisList = contentList;
+            }
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            currentPage++;
+            if(currentPage > totalPage)
+            {
+                currentPage--;
+                MessageBox.Show("已经是最后一页");
+            }
+            else
+            {
+                //调用接口的方法
+                List<Content> contentList = new List<Content>();
+                for (int i = 8; i <= 18; i++)
+                {
+                    Content content = new Content();
+                    content.a = i.ToString();
+                    content.b = i.ToString();
+                    content.c = i.ToString();
+                    content.d = i.ToString();
+                    content.e = "www.baidu.com";
+                    content.f = "www.taobao.com";
+                    contentList.Add(content);
+                }
+                this.dataGridView1.DataSource = contentList;
+                this.redisList = contentList;
             }
         }
     }
