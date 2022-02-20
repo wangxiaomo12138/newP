@@ -26,8 +26,9 @@ namespace WordAddIn1
         }
 
         //模拟调用接口过程组装数据
-        public static List<Content> GetC(int currentPage)
+        public static Dictionary<String, List<Content>> GetC(int currentPage)
         {
+            Dictionary<String, List<Content>> map = new Dictionary<string, List<Content>>();
             List<Content> contentList = new List<Content>();
             for (int i = 1; i <= 10; i++)
             {
@@ -40,7 +41,19 @@ namespace WordAddIn1
                 content.f = "www.taobao.com";
                 contentList.Add(content);
             }
-            return contentList;
+            map.Add("data1", contentList);
+            map.Add("data2", contentList);
+            return map;
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void UserControl2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

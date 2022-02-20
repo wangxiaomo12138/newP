@@ -12,3 +12,17 @@ C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.p
 C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Ribbon1.resources
 C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.UserControl1.resources
 C:\Users\Administrator\source\repos\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.UserControl2.resources
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.pdb
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.dll.manifest
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\bin\Debug\WordAddIn1.vsto
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.csproj.AssemblyReference.cache
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Properties.Resources.resources
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.Ribbon1.resources
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.UserControl1.resources
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.UserControl2.resources
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.csproj.GenerateResource.cache
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.csproj.CoreCompileInputs.cache
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.dll
+F:\360MoveData\Users\Administrator\Desktop\新建文件夹 (2)\newP\WordAddIn1\WordAddIn1\obj\Debug\WordAddIn1.pdb

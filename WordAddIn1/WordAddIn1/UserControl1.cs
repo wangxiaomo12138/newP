@@ -20,12 +20,24 @@ namespace WordAddIn1
             InitializeComponent();
         }
 
-        public UserControl1(List<Content> contentList,int totalPage)
+        public UserControl1(Dictionary<string,List<Content>> contentList, int totalPage)
         {
             InitializeComponent();
             this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.DataSource = contentList;
-            this.redisList = contentList;
+            foreach(var item in contentList)
+            {
+                if (item.Key.Equals("data1"))
+                {
+                    this.redisList = item.Value;
+                    this.dataGridView1.DataSource = item.Value;
+                }
+                if (item.Key.Equals("data2"))
+                {
+                    this.redisList = item.Value;
+                    this.dataGridView1.DataSource = item.Value;
+                }
+            }
+           
             this.totalPage = totalPage;
             this.currentPage = 1;
         }
@@ -98,6 +110,16 @@ namespace WordAddIn1
                 this.dataGridView1.DataSource = contentList;
                 this.redisList = contentList;
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

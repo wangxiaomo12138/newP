@@ -48,7 +48,7 @@ namespace WordAddIn1
             // 
             this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 51);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(654, 812);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(654, 546);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // UserControl2
@@ -58,7 +58,8 @@ namespace WordAddIn1
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.linkLabel1);
             this.Name = "UserControl2";
-            this.Size = new System.Drawing.Size(685, 866);
+            this.Size = new System.Drawing.Size(685, 613);
+            this.Load += new System.EventHandler(this.UserControl2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
